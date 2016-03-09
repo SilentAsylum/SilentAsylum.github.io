@@ -1,7 +1,20 @@
 img {
-    width: 200px;
+    width: 500px;
+    border-radius: 20px;
 }
 
 body {
     text-align: center;
+    font-family: 'Squada One', cursive;
+    background-image: url("https://i.ytimg.com/vi/9G1Hfb8oiUM/maxresdefault.jpg");
+    background-color: rgb(102, 0, 0);
+}
+
+.main_text {
+    background-position: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin: 1000px;
+    background-color: rgb(200, 200, 200);
+    color: black;
 }
