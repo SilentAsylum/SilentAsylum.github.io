@@ -1,6 +1,11 @@
 img {
     width: 500px;
     border-radius: 20px;
+    margin: 20px;
+}
+
+a {
+    color: rgb( 140, 140, 250);
 }
 
 body {
@@ -10,10 +15,35 @@ body {
     background-color: rgb(102, 0, 0);
 }
 
+.main_body{
+    background-color: black;
+    margin: 180px;
+    margin-top: 50px;
+    height: 800px;
+}
+
 .main_text {
     background-position: center;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 200px;
+    margin-right: 200px;
     background-color: rgb(200, 200, 200);
     color: black;
+}
+
+.free_images {
+    position: absolute;
+}
+
+#guitar1 {
+    position: absolute;
+    top: -800px;
+    left: 700px;
+    transform: rotate(-90deg);
+}
+
+#guitar2 {
+    position: absolute;
+    top: -800px;
+    left: 10px;
+    transform: rotate(-90deg);
 }
